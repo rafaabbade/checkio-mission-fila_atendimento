@@ -1,1 +1,12 @@
-{{CODIGO INICIAL}}
+def fila_atendimento(comandos):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(fila_atendimento(["chegada Ana", "chegada Bruno", "atender", "atender"]))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert fila_atendimento(["chegada Ana", "chegada Bruno", "atender", "atender"]) == ["Ana", "Bruno"]
+assert fila_atendimento(["chegada Carla", "atender"]) == ["Carla"]
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

@@ -1,22 +1,23 @@
 <!-- Describe task in general -->
 <p>
-    {{TIPO}}
+    <strong>Construção de Conhecimento:</strong> Explore novos conceitos e técnicas. Peça dicas e leia-as com atenção. Pesquise se necessário.
 </p>
 <h4>Enunciado</h4>
 
 <p>
-    {{ENUNCIADO}}
+    Luiza, uma gerente de um centro de atendimento ao cliente, precisa implementar um sistema de fila para gerenciar os atendimentos. Ela quer usar uma fila para organizar a ordem de chegada dos clientes.
+Crie uma função que simule uma fila de atendimento. A função deve permitir adicionar clientes à fila e atender os clientes na ordem em que chegaram.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> {{ENTRADA}}
+    <strong>Entrada: </strong> Uma lista de comandos, onde cada comando é uma string: "chegada <cliente>", "atender".
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Uma lista dos clientes atendidos na ordem correta.
 </p>
 
 
@@ -32,11 +33,14 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    fila_atendimento(["chegada Ana", "chegada Bruno", "atender", "atender"]) >> ["Ana", "Bruno"]
 </pre>
 {% endif %}
 </div>
 <h4>Habilidades</h4>
 <ul>
-    {{HABILIDADES}}
+    <li>Filas</li>
+<li>Manipulação de Strings</li>
+<li>Controle de Fluxo e Iteração</li>
+<li>Lógicas de Condições e Decisões</li>
 </ul>
