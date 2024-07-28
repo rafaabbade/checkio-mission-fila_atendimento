@@ -10,7 +10,7 @@ Each test is a dict with
 
 TESTS = {
     "Basics": [
-        [
+        
     {
         "input": [["chegada Ana", "chegada Bruno", "atender", "atender"]],
         "answer": ["Ana", "Bruno"]
@@ -19,6 +19,6 @@ TESTS = {
         "input": [["chegada Carla", "atender"]],
         "answer": ["Carla"]
     }
-]
+
     ]
 }
